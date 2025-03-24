@@ -66,7 +66,6 @@ const Hero = () => {
             <div className="relative w-64 h-64 md:w-96 md:h-96 bg-gradient-to-r from-purple-500 to-blue-600 rounded-full flex items-center justify-center">
               <div className="absolute inset-0 bg-[url('assets/img/profile2.png')] bg-cover bg-center rounded-full border-8 border-gray-800 transform hover:scale-105 transition-transform">
                 {/* Add your profile image in the public folder */}
-             
               </div>
             </div>
           </div>
