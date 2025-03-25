@@ -14,16 +14,16 @@ const Projects = () => {
       tech: ["React", "Node.js", "MongoDB", "Redux"],
       github: "#",
       demo: "#",
-      image: "src/assets/img/project1.jpg",
+      image: "src/assets/img/project1.png",
       category: "full-stack"
     },
     {
       title: "Gym website",
       description: "Real Time Gym Website",
-      tech: ["React", "Tailwind", "nodejs"],
+      tech: ["React", "TailwindCss", "nodejs"],
       github: "#",
       demo: "#",
-      image: "src/assets/img/project2.jpg",
+      image: "src/assets/img/project2.png",
       category: "frontend"
     },
     {
@@ -32,7 +32,7 @@ const Projects = () => {
       tech: ["React", "Tailwindcss"],
       github: "#",
       demo: "#",
-      image: "src/assets/img/project3.jpg",
+      image: "src/assets/img/project3.png",
       category: "frontend"
     }
   ];
