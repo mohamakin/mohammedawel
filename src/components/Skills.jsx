@@ -86,7 +86,7 @@ const Skills = () => {
             Also Familiar With
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {['TypeScript', 'Redux', 'MongoDB', 'Express', 'Firebase', 'Jest'].map((skill, index) => (
+            {['TypeScript', 'Redux', 'MongoDB', 'Express'].map((skill, index) => (
               <span 
                 key={index}
                 className="px-4 py-2 bg-gray-700 rounded-full text-gray-200 text-sm hover:bg-gray-600 transition-colors"

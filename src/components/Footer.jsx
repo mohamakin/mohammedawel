@@ -1,7 +1,6 @@
 
 import { motion } from 'framer-motion';
 import { FiCode, FiGithub, FiLinkedin, FiMail, FiChevronUp } from 'react-icons/fi';
-
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -25,7 +24,7 @@ const Footer = () => {
       icon: <FiMail className="w-6 h-6" />,
       href: 'mailto:makinhakim529@gmail.com',
       label: 'Email'
-    }
+    },
   ];
 
   const footerLinks = [
@@ -51,8 +50,10 @@ const Footer = () => {
               <FiCode className="h-8 w-8 text-purple-400" />
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
                 Mohammed
+                
               </span>
             </div>
+            
             <p className="text-gray-400 text-sm">
               Building digital experiences that inspire
             </p>
